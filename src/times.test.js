@@ -1,6 +1,5 @@
-const sum = require('./sum')
-const sub = require('./sub')
+const times = require('./times')
 
-test("add 1 + 2 to be equal 3", () => { 
-	expect(sum(1,2)).toBe(3);
+test("mult 2 * 2 to be equal 4", () => { 
+	expect(times(2,2)).toBe(4);
 });
