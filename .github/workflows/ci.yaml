@@ -3,11 +3,10 @@ on:
   pull_request:
     branches:
       - develop
-      - main
       
 jobs:
   sonarcloud:
-    name: SonarCloud
+    name: SonarCloud - Job
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
